@@ -29,6 +29,7 @@ $cricketers = array (
 
 foreach ($cricketers as $player) {
     echo $player[0] . ": Wickets: " . $player[1] . ", Runs: " . $player[2] . ".\n";
+}
 
 /*
 $rows = count($cricketers);
@@ -37,7 +38,6 @@ for ($i = 0; $i < $rows; $i++) {
 }
 */
 
-}
 
 /*
 Miraz: Wickets: 16, Runs: 140.
@@ -47,7 +47,7 @@ Shadab: Wickets: 10, Runs: 110.
 */
 
 
-
+//Using Row Column
 $cricketers = array (
     array("Sakib",10,180),
     array("Mehedi",12,130),
