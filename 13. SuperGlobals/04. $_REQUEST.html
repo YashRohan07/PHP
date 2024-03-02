@@ -1,0 +1,24 @@
+<!--
+$_REQUEST is a PHP super global variable which contains submitted form data, and all cookie data.
+In other words, $_REQUEST is an array containing data from $_GET, $_POST, and $_COOKIE.
+You can access this data with the $_REQUEST keyword followed by the name of the form field, or cookie.
+-->
+
+<!--Using $_REQUEST on $_POST Requests, POST request are usually data submitted from an HTML form-->
+<html>
+<body>
+
+<form method="post" action="04.demo_request.php">
+  Name: <input type="text" name="fname">
+  <input type="submit">
+</form>
+
+</body>
+</html>
+
+
+<!--
+When a user clicks the submit button, the form data is sent to a PHP file specified in the action attribute of the <form> tag.
+In the action file we can use the $_REQUEST variable to collect the value of the input field.
+-->
+
