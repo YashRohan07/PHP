@@ -1,0 +1,28 @@
+<!--
+HTML form submits information via the HTTP GET method if the form's method attribute is set to "GET"
+$_GET contains an array of variables received via the HTTP GET method.
+
+There are two main ways to send variables via the HTTP GET method:
+
+1.Query strings in the URL
+2.HTML Forms
+
+-->
+
+<html>
+<body>
+
+<form action="09.welcome_get.php" method="GET">
+  Name: <input type="text" name="name">
+  E-mail: <input type="text" name="email">
+  <input type="submit">
+</form>
+
+</body>
+</html>
+
+<!--
+When a user clicks the submit button, the form data is sent to a PHP file specified in the action attribute of the <form> tag.
+The form fields are sent to the PHP file, with your input, as query strings:
+welcome_get.php?name=John&email=john@example.com
+-->

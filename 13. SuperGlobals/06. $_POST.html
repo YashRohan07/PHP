@@ -1,0 +1,24 @@
+<!--
+
+$_POST contains an array of variables received via the HTTP POST method.
+HTML form submits information via the HTTP POST method if the form's method attribute is set to "POST".
+There are two main ways to send variables via the HTTP Post method:
+1.HTML forms
+2.JavaScript HTTP requests
+
+When a user clicks the submit button,
+the form data is sent to a PHP file specified in the action attribute of the <form> tag.
+
+-->
+
+
+<html>
+<body>
+
+<form method="POST" action="06.demo_request.php">
+  Name: <input type="text" name="fname">
+  <input type="submit">
+</form>
+
+</body>
+</html>
